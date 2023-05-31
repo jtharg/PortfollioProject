@@ -1,0 +1,76 @@
+﻿
+/*.img-container {
+    position: absolute;
+    right: 25%;
+    top: 10%;
+    width: 25%;*/ /* Adjust the width as desired */
+    /*height: 30%;*/ /* Adjust the height as desired */
+    /*display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+    .img-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 5%
+    }
+
+.text-container {
+    width: 50%;
+    height: 30%;
+    top: 15%;
+    text-align: center;
+    left: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid;
+}*/
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.about-me {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+    .text-container h3, .text-container h1 {
+        margin: 0; /* Remove the margin between the heading elements */
+    }
+
+.img-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+    .img-container img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
