@@ -8,7 +8,7 @@
 
 
     <div class="header">
-      <h1 class="header-title">John Hargenrader's Resume</h1>
+      <h1 class="header-title">My Resume</h1>
       <asp:Button runat="server" OnClick="downloadResume" class="download-button" Text="Download"></asp:Button>
     </div>
 
