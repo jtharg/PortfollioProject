@@ -190,6 +190,7 @@
     <Content Include="Images\background.JPG" />
     <Content Include="Images\projects-icon.png" />
     <Content Include="Images\title-icon.png" />
+    <Content Include="Project-Assets\ChessDemo.mp4" />
     <Content Include="Project-Assets\SPARCDemo.mp4" />
     <Content Include="resume.aspx" />
     <Content Include="projects.aspx" />
