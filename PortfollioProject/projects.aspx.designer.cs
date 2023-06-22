@@ -11,7 +11,7 @@ namespace PortfollioProject
 {
 
 
-    public partial class Contact
+    public partial class WebForm2
     {
     }
 }

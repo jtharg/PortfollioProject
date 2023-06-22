@@ -7,7 +7,7 @@ body, h1, h2, p, a {
 /* Global styles */
 body {
     font-family: "Open Sans", Arial, sans-serif;
-    background-color: #000000;
+    background-color: #050a31;
     color: #FFFFFF;
     line-height: 1.5;
 }
@@ -17,11 +17,10 @@ header {
     padding: 50px 0;
 }
 
-h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-    font-family: serif;
-    color: #FFFFFF;
+
+.horizontal-line {
+    width: 75%;
+    background: white;
 }
 
 .container {
@@ -29,12 +28,35 @@ h1 {
     width: 50%;
     margin: 0 auto 40px auto;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back-link {
+    position: absolute;
+    left: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:20px;
+}
+
+
+.about-container {
+    /*    max-width: 700px; */
+    background-image: url('https://localhost:44337/Images/background.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    text-align: justify;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 p {
-    font-size: 18px;
+
+    font-size: 23px;
     margin-bottom: 30px;
 }
 
@@ -76,7 +98,7 @@ h2 {
     font-size: 40px;
     margin-bottom: 10px;
     font-family: serif;
-    color: #FFFFFF;
+    color: #E19D20;
 }
 
 .about-content {

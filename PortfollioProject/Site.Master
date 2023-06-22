@@ -3,21 +3,18 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head runat="server">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
-
-    <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
-    </asp:PlaceHolder>
-
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link rel="icon" type="image/png" href="Images/title-icon.png">
+    <title></title>
+    <%--css imports--%>
     <link href="CSS/global.css" rel="stylesheet" />
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <%--js imports--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
+
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
@@ -49,7 +46,6 @@
             <footer class="footer">
                  <p style="text-align: center; margin:0 auto; color: #FFFFFF">&copy; All Rights Reserved. 2023 John Hargenrader.</p>
                  <p style="text-align: center; margin:0 auto; color: #FFFFFF"><a style="color: #FFFFFF" href="mailto:hargenrader.johnny@gmail.com">hargenrader.johnny@gmail.com</a></p>     
-                 <p style="text-align: center; margin:0 auto; color: #FFFFFF">571-388-6353</p>
              </footer>
     </div>
 

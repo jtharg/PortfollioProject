@@ -29,12 +29,41 @@
     border: 1px solid;
 }*/
 
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: serif;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #E19D20;
+}
+
 .intro-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
 }
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .link-container img {
+        margin: 10px;
+        width: 100px;
+        height: 25%;
+        border-radius: 50%;
+        transition: filter 0.3s ease;
+    }
+        .link-container img:hover {
+            filter: brightness(70%);
+        }
 
 .about-me {
     margin-top: 20px;
