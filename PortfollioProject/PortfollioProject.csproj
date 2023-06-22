@@ -190,6 +190,7 @@
     <Content Include="Images\background.JPG" />
     <Content Include="Images\projects-icon.png" />
     <Content Include="Images\title-icon.png" />
+    <Content Include="Project-Assets\SPARCDemo.mp4" />
     <Content Include="resume.aspx" />
     <Content Include="projects.aspx" />
     <Content Include="PDF\Resume.pdf" />
@@ -204,6 +205,7 @@
     <Content Include="bin\roslyn\vbc.exe.config" />
     <Content Include="bin\roslyn\vbc.rsp" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="Project-Assets\Documentation.docx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\github-icon.png" />
     <Content Include="Images\linked-in-icon.png" />
